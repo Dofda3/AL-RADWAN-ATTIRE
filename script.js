@@ -3,7 +3,7 @@ const products = [
     { id: 1, name: "جلابية الليل الفاخرة", price: 460, img: "model3_M.jpg", category: "جلابية رجالي" },
     { id: 2, name: "جلابية السلطان المطرزة", price: 250, img: "model1_M.jpg", category: "جلابية رجالي" },
     { id: 3, name: "جلابية الفارس الكلاسيكية", price: 320, img: "model2_M.jpg", category: "جلابية رجالي" },
-    { id: 2, name: "خمار نسائي", price: 150, img: "model1_F.jpg", category: "عباءات نسائية" }
+    { id: 4, name: "خمار نسائي", price: 150, img: "model1_F.jpg", category: "عباءات نسائية" }
 ];
 
 let cart = [];
