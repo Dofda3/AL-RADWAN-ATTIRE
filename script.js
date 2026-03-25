@@ -118,13 +118,13 @@ function checkoutWhatsApp() {
     const total = cart.reduce((sum, i) => sum + i.price, 0);
     msg += `━━━━━━━━━━━━━━━━━\n*الإجمالي: ${total} جنيه *`;
     
-    const phone = "966501234567"; // ضع رقمك هنا (بدون +)
+    const phone = "201202025972"; // ضع رقمك هنا (بدون +)
     window.open(`https://wa.me/${phone}?text=${encodeURIComponent(msg)}`);
 }
 
 function directWhatsApp() {
     const msg = "السلام عليكم ورحمة الله وبركاته،\nأريد الاستفسار عن منتجاتكم";
-    const phone = "966501234567"; // ضع رقمك هنا (بدون +)
+    const phone = "201202025972"; // ضع رقمك هنا (بدون +)
     window.open(`https://wa.me/${phone}?text=${encodeURIComponent(msg)}`);
 }
 
